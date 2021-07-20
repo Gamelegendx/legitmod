@@ -224,4 +224,4 @@ require("./ExtendedMessage");
     
     
 
-client.login(config.TOKEN);
+client.login(process.env.TOKEN);
